@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7440a2e1-5330-4f9b-91dc-2700c68c182d" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -33,6 +34,18 @@
       <recent name="C:\Users\juanm\PycharmProjects\Bootstrap\app\templates" />
     </key>
   </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
   <component name="RunManager">
     <configuration name="__init__" type="PythonConfigurationType" factoryName="Python">
       <module name="Bootstrap" />
@@ -56,18 +69,6 @@
       <method v="2" />
     </configuration>
   </component>
-  <component name="ServiceViewManager">
-    <option name="viewStates">
-      <list>
-        <serviceView>
-          <treeState>
-            <expand />
-            <select />
-          </treeState>
-        </serviceView>
-      </list>
-    </option>
-  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -89,30 +90,30 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="414" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1575567657007" />
-    <state x="680" y="456" key="FileChooserDialogImpl" timestamp="1575657021739">
+    <state x="680" y="456" key="FileChooserDialogImpl" timestamp="1575808676627">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="680" y="456" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1575657021739" />
-    <state width="1899" height="282" key="GridCell.Tab.0.bottom" timestamp="1575762892155">
+    <state x="680" y="456" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1575808676627" />
+    <state width="1899" height="282" key="GridCell.Tab.0.bottom" timestamp="1575998059432">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1575762892155" />
-    <state width="1899" height="282" key="GridCell.Tab.0.center" timestamp="1575762892155">
+    <state width="1899" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1575998059432" />
+    <state width="1899" height="282" key="GridCell.Tab.0.center" timestamp="1575998059432">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1575762892155" />
-    <state width="1899" height="282" key="GridCell.Tab.0.left" timestamp="1575762892155">
+    <state width="1899" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1575998059432" />
+    <state width="1899" height="282" key="GridCell.Tab.0.left" timestamp="1575998059432">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1575762892155" />
-    <state width="1899" height="282" key="GridCell.Tab.0.right" timestamp="1575762892155">
+    <state width="1899" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1575998059432" />
+    <state width="1899" height="282" key="GridCell.Tab.0.right" timestamp="1575998059432">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1575762892155" />
-    <state x="402" y="324" key="SettingsEditor" timestamp="1575722220896">
+    <state width="1899" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1575998059432" />
+    <state x="402" y="324" key="SettingsEditor" timestamp="1575981386109">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="402" y="324" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1575722220896" />
+    <state x="402" y="324" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1575981386109" />
     <state x="661" y="343" key="com.intellij.ide.util.TipDialog" timestamp="1575567417853">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

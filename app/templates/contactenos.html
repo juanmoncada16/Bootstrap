@@ -9,28 +9,100 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
 </head>
-<body>
+<style>
+body {
+  background-image: url(static/CONTACTOS.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color:#464646;
+}
 
-<ul class="nav justify-content-center fixed-top">
-  <li class="nav-item">
-    <a class="nav-link active" href="/">Inicio</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="/nosotros">Nosotros</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="/servicios">Servicios</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="/informacion">Información</a>
-  </li>
-    <li class="nav-item">
-    <a class="nav-link" href="/reservaciones">Reservaciones</a>
-  </li>
-    <li class="nav-item">
-    <a class="nav-link" href="/contactenos">Contáctenos</a>
-  </li>
-</ul>
+@media only screen and (max-width: 767px) {
+  body {
+    background-image: url(static/CONTACTOS.png);
+  }
+}
+</style>
+<body>
+<div class="container-fluid ">
+    <ul class="nav justify-content-center fixed-top" style="background: #03030352">
+      <li class="nav-item">
+        <a class="nav-link" style="color: #fff" href="/">Inicio</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" style="color: #fff" href="/nosotros">Nosotros</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" style="color: #fff" href="/servicios">Servicios</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" style="color: #fff" href="/informacion">Información</a>
+      </li>
+        <li class="nav-item">
+        <a class="nav-link" style="color: #fff" href="/reservaciones">Reservaciones</a>
+      </li>
+        <li class="nav-item">
+        <a class="nav-link" href="/contactenos">Contáctenos</a>
+      </li>
+    </ul>
+</div>
+
+<div class="container-fluid">
+      <p class="py-5"></p>
+        <div class="row">
+          <div class="col-2"></div>
+          <div class="col-2">
+            <img src="static/DER.png" width="300" height="500" title=Imagen">
+          </div>
+          <div class="col-8">
+              <div class="container">
+                <div class="px-5">
+                  <form>
+                      <div class="form-group">
+                        <label class="text-white" for="exampleModalLabel">Email:</label>
+                        <input type="email" class="form-control" placeholder="nombre@ejemplo.com">
+                      </div>
+                      <div class="form-group">
+                          <label class="text-white" for="exampleModalLabel">Asunto:</label>
+                          <input type="text" class="form-control" placeholder="Escriba su Asunto">
+                      </div>
+                      <div class="form-group">
+                        <label class="text-white" for="exampleModalLabel">Descripción:</label>
+                        <textarea class="form-control" rows="8"></textarea>
+                      </div>
+                      <div class="form-group">
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+                          Enviar
+                        </button>
+                        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                          <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                              <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">¿Seguro que desea enviar?</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                  <span aria-hidden="true">&times;</span>
+                                </button>
+                              </div>
+                              <div class="modal-body">
+                                Cuando recibamos la información lo contactaremos lo antes posible.
+                              </div>
+                              <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
+                                <a class="btn btn-primary" href="/contactenos">Enviar</a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                  </form>
+                </div>
+              </div>
+           </div>
+        </div>
+      </p>
+</div>
 
 
 </body>

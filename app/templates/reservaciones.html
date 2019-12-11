@@ -8,6 +8,7 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  <script type="text/javascript" id="rda-calendar" src="https://www.reservasporinternet.com/webmaster/widget/calendar/hotel-business/hotel-business-calendar.js" data-company="XXXX" data-target="calendar" data-language="es" data-type="inline" data-color="345678"></script>
 </head>
 <style>
 body {
@@ -25,29 +26,65 @@ body {
   }
 }
 </style>
+<style type="text/css">
+#calendar { width: 100%; max-width: 300px; height: auto; }
+</style>
 <body>
 
-<ul class="nav justify-content-center fixed-top">
+<ul class="nav justify-content-center fixed-top" style="background: #03030352">
   <li class="nav-item">
-    <a class="nav-link active" href="/">Inicio</a>
+    <a class="nav-link" style="color: #fff" href="/">Inicio</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="/nosotros">Nosotros</a>
+    <a class="nav-link" style="color: #fff" href="/nosotros">Nosotros</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="/servicios">Servicios</a>
+    <a class="nav-link" style="color: #fff" href="/servicios">Servicios</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="/informacion">Información</a>
+    <a class="nav-link" style="color: #fff" href="/informacion">Información</a>
   </li>
     <li class="nav-item">
     <a class="nav-link" href="/reservaciones">Reservaciones</a>
   </li>
     <li class="nav-item">
-    <a class="nav-link" href="/contactenos">Contáctenos</a>
+    <a class="nav-link" style="color: #fff" href="/contactenos">Contáctenos</a>
   </li>
 </ul>
 
+
+<div class="Container px-3">
+  <p class="py-3"></p>
+  <div class="row">
+      <div class="col-5">
+        <div>
+          <p class="h5"><b>CATÁLOGO EMBERA WOUNAAN</b></p>
+          <embed height="550px" width="100%" name="embed_content" src="static/Catalogo.pdf" type="application/pdf">
+        </div>
+      </div>
+    <div class="col">
+      <div class="row">
+          <div class="col-6">
+          <p class="h5"><b>MAPA DE</b></p>
+            <p CLASS="h5"><b>EMBERA WOUNAAN</b></p>
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1010995.2690190017!2d-78.35448210140221!3d8.182570211984869!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e521066570f64cd%3A0x8f376eeba7a76941!2sEmber%C3%A1-Wounaan!5e0!3m2!1ses-419!2spa!4v1575944061172!5m2!1ses-419!2spa" width="100%" height="325" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+          </div>
+        <div class="col-6">
+          <p class="h5"><b>RESERVA TU VIAJE A</b>
+            <p class="h5"><b>EMBERA WOUNAAN</b></p>
+            <div id="calendar" style="width: 100%"></div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-10">
+            <p class="text-justify">Esta aventura nos llevará a la comunidad de Emberá Wounaan, donde podrá disfrutar de un hermoso paisaje, conocer la cultura de los indígenas y deleitarse de un exquisito almuerzo tradicional, el cual es preparado por las mujeres de la comunidad, así como participar en los bailes y recrearse con la música, lo que lo transportará a tiempos pasados.
+            <p class="text-justify">El viaje incluye: Transporte acuático ida y vuelta, Almuerzo típico, Presentación cultura (bailes y música), Sendero interpretativo (guiado por un botánico Emberá), Explicación de la cultura y origen de la comunidad, Exhibición y ventas de artesanías.</p>
+            </p>
+          </div>
+      </div>
+      </div>
+    </div>
+</div>
 
 </body>
 </html>
